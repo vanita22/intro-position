@@ -1,0 +1,74 @@
+body{
+	background-color: yellow;
+}
+
+.caja{
+	position: relative;
+	background-color: green;
+	left: 100px;
+	top: 20px;
+}
+
+.segunda-caja{
+	background-color: red;
+	position: relative;
+	right: 201px;
+}
+
+.tercera-caja{
+	background-color: blue;
+	position: relative;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	font-size: 48px;
+	text-align: center;
+	color: whitesmoke;
+	line-height: 200px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+/*absolutas*/
+
+.absolutas{
+	border: 10px solid white;
+	width: 90%;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+
+.abso-uno{
+	background-color: brown;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.cont-abso{
+	border: 10px solid green;
+
+}
+
+.abso-dos{
+	background-color: pink;
+	position: absolute;
+	top: 100%;
+	left: 200px;
+}
+
+.abso-tres{
+	background-color: blue;
+}
+
+.fija-uno{
+	background-color: red;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
